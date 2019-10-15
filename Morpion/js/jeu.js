@@ -37,7 +37,6 @@ $(function() {
 	      	}
 	    } else {
 	      	$('.info').text("Erreur la case est déjà prise !").css("color", "red");
-	      	total_coup--;
 	    }
 	}
   });
