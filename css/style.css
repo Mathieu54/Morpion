@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+  background: lightgray;
+}
+body table {
+  border-collapse: collapse;
+  width: 500px;
+  margin: 0 auto;
+}
+body table td {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+body table td.croix:before {
+  content: "X";
+  color: orange;
+  font-size: 75px;
+}
+body table td.rond:before {
+  content: "O";
+  color: blue;
+  font-size: 75px;
+}
+button {
+	margin-top: 10px;
+  background: #555;
+  border: 1px solid #333;
+  padding: 5px 10px;
+  color: #FFF;
+  cursor: pointer;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+button .reset:hover {
+  opacity: 0.8;
+}
